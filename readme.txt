@@ -17,7 +17,7 @@ J, the ‘‘job mix’’, which determines A, B, and C, as described below.
 N, the number of references for each process. 
 R, the replacement algorithm, FIFO, RANDOM, or LRU.
 
-#Job mix:
+#Memory Address types: assume sequential disk memory and the next address is 
 • w+1 mod S with probability A  , the address one higher than the current, sequential memory reference
 • w-5 mod S with probability B , a lower address, backward branch
 • w+4 mod S with probability C , a nearby higher address, jump in a else/then block
